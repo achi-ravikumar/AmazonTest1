@@ -1,6 +1,7 @@
 using AmazonTest.Pages;
 
 namespace AmazonTest;
+{
 
 [Binding]
 public class SearchSd : BasePage
@@ -38,4 +39,5 @@ public class SearchSd : BasePage
     {
         _searchPage.verifyAddToCartMsg(p0);
     }
+}
 }
