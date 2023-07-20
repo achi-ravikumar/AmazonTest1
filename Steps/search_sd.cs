@@ -1,6 +1,6 @@
 using AmazonTest.Pages;
 
-namespace AmazonTest;
+namespace AmazonTest
 {
 
 [Binding]
