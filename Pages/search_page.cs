@@ -1,7 +1,8 @@
 using NUnit.Framework;
 using OpenQA.Selenium;
 
-namespace AmazonTest.Pages;
+namespace AmazonTest.Pages
+{
 
 public class SearchPage : BasePage
 {
@@ -80,4 +81,5 @@ public class SearchPage : BasePage
         // waitforElement(By.Id("NATC_SMART_WAGON_CONF_MSG_SUCCESS"));
         // Assert.AreEqual(expectedMsg, addedToBasketMsg.Text);
     }
+}
 }
