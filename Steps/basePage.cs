@@ -7,6 +7,7 @@ using OpenQA.Selenium.IE;
 using OpenQA.Selenium.Support.UI;
 
 namespace AmazonTest;
+{
 
 [TestFixture]
 public class BasePage
@@ -59,4 +60,5 @@ public class BasePage
         WebDriverWait w = new WebDriverWait(_driver, TimeSpan.FromSeconds(10));
         w.Until(ExpectedConditions.ElementExists(element));
     }
+}
 }
