@@ -1,5 +1,5 @@
 # ASP.NET
-- task: VSTest@3
+ task: VSTest@3
   inputs:
     testSelector: 'testAssemblies'
     testAssemblyVer2: |
