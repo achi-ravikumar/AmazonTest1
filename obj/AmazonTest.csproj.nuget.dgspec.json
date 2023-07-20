@@ -50,10 +50,6 @@
               "target": "Package",
               "version": "[4.1.0, )"
             },
-            "PageFactoryCore": {
-              "target": "Package",
-              "version": "[1.0.2, )"
-            },
             "Selenium.Support": {
               "target": "Package",
               "version": "[3.141.0, )"

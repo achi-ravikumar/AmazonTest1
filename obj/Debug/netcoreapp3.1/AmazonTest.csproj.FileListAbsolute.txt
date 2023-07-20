@@ -1,0 +1,5 @@
+/Users/ravikumar/Documents/AmazonTest/obj/Debug/netcoreapp3.1/AmazonTest.csproj.AssemblyReference.cache
+/Users/ravikumar/Documents/AmazonTest/obj/Debug/netcoreapp3.1/AmazonTest.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ravikumar/Documents/AmazonTest/obj/Debug/netcoreapp3.1/AmazonTest.AssemblyInfoInputs.cache
+/Users/ravikumar/Documents/AmazonTest/obj/Debug/netcoreapp3.1/AmazonTest.AssemblyInfo.cs
+/Users/ravikumar/Documents/AmazonTest/obj/Debug/netcoreapp3.1/AmazonTest.csproj.CoreCompileInputs.cache

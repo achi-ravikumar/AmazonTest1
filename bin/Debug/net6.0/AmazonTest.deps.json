@@ -11,7 +11,6 @@
           "FluentAssertions": "6.2.0",
           "Microsoft.NET.Test.Sdk": "17.0.0",
           "NUnit3TestAdapter": "4.1.0",
-          "PageFactoryCore": "1.0.2",
           "Selenium.Support": "3.141.0",
           "Selenium.WebDriver": "4.10.0",
           "Selenium.WebDriver.ChromeDriver": "116.0.5845.4200-beta",
@@ -438,17 +437,6 @@
         }
       },
       "NUnit3TestAdapter/4.1.0": {},
-      "PageFactoryCore/1.0.2": {
-        "dependencies": {
-          "Selenium.WebDriver": "4.10.0"
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/PageFactoryCore.dll": {
-            "assemblyVersion": "1.0.2.0",
-            "fileVersion": "1.0.2.0"
-          }
-        }
-      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {},
       "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {},
       "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {},
@@ -1262,13 +1250,6 @@
       "sha512": "sha512-v45RJt87pPAWlCDIftmtQhNK0mXd81IcnTE6SmWUmxi6YegCvkQogZQ/ROw4zyNyo2HI3Ckby3LB0GHF4bEIXg==",
       "path": "nunit3testadapter/4.1.0",
       "hashPath": "nunit3testadapter.4.1.0.nupkg.sha512"
-    },
-    "PageFactoryCore/1.0.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-hnby5Fi1LJ4sc40rp49xyrDtgBD1ntoAT0VPCT+Nu8A9VlssEKA0BZsd4XUr1t9zOl386vdjeH0EYdG4gLgQBA==",
-      "path": "pagefactorycore/1.0.2",
-      "hashPath": "pagefactorycore.1.0.2.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
       "type": "package",

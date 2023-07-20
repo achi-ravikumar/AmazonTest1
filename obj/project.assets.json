@@ -527,18 +527,6 @@
           "build/netcoreapp2.1/NUnit3TestAdapter.props": {}
         }
       },
-      "PageFactoryCore/1.0.2": {
-        "type": "package",
-        "dependencies": {
-          "Selenium.WebDriver": "3.141.0"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/PageFactoryCore.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/PageFactoryCore.dll": {}
-        }
-      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
         "type": "package",
         "runtimeTargets": {
@@ -2818,18 +2806,6 @@
         "build/netcoreapp2.1/testcentric.engine.metadata.dll",
         "nunit3testadapter.4.1.0.nupkg.sha512",
         "nunit3testadapter.nuspec"
-      ]
-    },
-    "PageFactoryCore/1.0.2": {
-      "sha512": "hnby5Fi1LJ4sc40rp49xyrDtgBD1ntoAT0VPCT+Nu8A9VlssEKA0BZsd4XUr1t9zOl386vdjeH0EYdG4gLgQBA==",
-      "type": "package",
-      "path": "pagefactorycore/1.0.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netcoreapp3.1/PageFactoryCore.dll",
-        "pagefactorycore.1.0.2.nupkg.sha512",
-        "pagefactorycore.nuspec"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
@@ -6040,7 +6016,6 @@
       "FluentAssertions >= 6.2.0",
       "Microsoft.NET.Test.Sdk >= 17.0.0",
       "NUnit3TestAdapter >= 4.1.0",
-      "PageFactoryCore >= 1.0.2",
       "Selenium.Support >= 3.141.0",
       "Selenium.WebDriver >= 4.10.0",
       "Selenium.WebDriver.ChromeDriver >= 116.0.5845.4200-beta",
@@ -6098,10 +6073,6 @@
           "NUnit3TestAdapter": {
             "target": "Package",
             "version": "[4.1.0, )"
-          },
-          "PageFactoryCore": {
-            "target": "Package",
-            "version": "[1.0.2, )"
           },
           "Selenium.Support": {
             "target": "Package",

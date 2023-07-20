@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "13P191NVT8Hla1bOGVijB3q6UIMRbfXDmasE5Nx1ZQSn+z4M5UiJ8o2HJgvnwFdCyRbwnf15K2MYYa8RtjSqsA==",
+  "dgSpecHash": "Igv7Y15HnibPFTgu5C0itduu+4MNyqmEzu0+M6CJLROKomoKUDIQ1dbkjK3/poHzu7cGPSKju90pSp7R56xG1Q==",
   "success": true,
   "projectFilePath": "/Users/ravikumar/Documents/AmazonTest/AmazonTest.csproj",
   "expectedPackageFiles": [
@@ -26,7 +26,6 @@
     "/Users/ravikumar/.nuget/packages/nuget.frameworks/5.0.0/nuget.frameworks.5.0.0.nupkg.sha512",
     "/Users/ravikumar/.nuget/packages/nunit/3.13.2/nunit.3.13.2.nupkg.sha512",
     "/Users/ravikumar/.nuget/packages/nunit3testadapter/4.1.0/nunit3testadapter.4.1.0.nupkg.sha512",
-    "/Users/ravikumar/.nuget/packages/pagefactorycore/1.0.2/pagefactorycore.1.0.2.nupkg.sha512",
     "/Users/ravikumar/.nuget/packages/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl/4.3.2/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "/Users/ravikumar/.nuget/packages/runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl/4.3.2/runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "/Users/ravikumar/.nuget/packages/runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl/4.3.2/runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",

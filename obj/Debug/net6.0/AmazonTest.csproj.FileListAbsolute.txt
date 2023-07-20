@@ -119,6 +119,5 @@
 /Users/ravikumar/Documents/AmazonTest/bin/Debug/net6.0/SeleniumExtras.PageObjects.dll
 /Users/ravikumar/Documents/AmazonTest/bin/Debug/net6.0/SeleniumExtras.WaitHelpers.dll
 /Users/ravikumar/Documents/AmazonTest/bin/Debug/net6.0/NLog.dll
-/Users/ravikumar/Documents/AmazonTest/bin/Debug/net6.0/PageFactoryCore.dll
 /Users/ravikumar/Documents/AmazonTest/bin/Debug/net6.0/WebDriver.Support.dll
 /Users/ravikumar/Documents/AmazonTest/bin/Debug/net6.0/Framework.dll
