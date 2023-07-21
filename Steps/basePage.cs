@@ -46,13 +46,13 @@ public class BasePage
     public void openURL()
     {
         _driver.Url = "https://www.amazon.co.uk/";
-        List<ReadOnlyCollection<IWebElement>> elementList = new List<ReadOnlyCollection<IWebElement>>();
-        elementList.AddRange(new[] { _driver.FindElements(By.Id("sp-cc-accept")) });
-
-        if (elementList.Count > 0)
-        {
-            _driver.FindElement(By.Id("sp-cc-accept")).Click();
-        }
+        // List<ReadOnlyCollection<IWebElement>> elementList = new List<ReadOnlyCollection<IWebElement>>();
+        // elementList.AddRange(new[] { _driver.FindElements(By.Id("sp-cc-accept")) });
+        //
+        // if (elementList.Count > 0)
+        // {
+        //     _driver.FindElement(By.Id("sp-cc-accept")).Click();
+        // }
     }
 
     public void waitforElement(By element)
