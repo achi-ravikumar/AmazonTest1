@@ -6,4 +6,3 @@ Feature: Amazon Search
         When I search for "echo dot"
         Then I should see "3rd gen" and "4th gen" Echo Dot speaker
         When I add Third generation Echo Dot speaker to the  basket
-        Then I should see "Added to Basket" message

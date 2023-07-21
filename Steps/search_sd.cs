@@ -34,10 +34,10 @@ public class SearchSd : BasePage
         _searchPage.addTotheBasket();
     }
 
-    [Then(@"I should see ""(.*)"" message")]
-    public void ThenIShouldSeeMessage(string p0)
+    [Then(@"I should see ""(.*)"" in the url")]
+    public void ThenIShouldSeeInTheUrl(string cart)
     {
-        _searchPage.verifyAddToCartMsg(p0);
+        _searchPage.verifyAddToCartMsg(cart);
     }
 }
 }

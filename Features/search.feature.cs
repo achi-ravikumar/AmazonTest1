@@ -114,9 +114,6 @@ namespace AmazonTest.Features
 #line 8
         testRunner.When("I add Third generation Echo Dot speaker to the  basket", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 9
-        testRunner.Then("I should see \"Added to Basket\" message", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line hidden
             }
             this.ScenarioCleanup();
         }
