@@ -78,8 +78,8 @@ public class SearchPage : BasePage
 
     public void verifyAddToCartMsg(String expectedMsg)
     {
-        // waitforElement(By.Id("NATC_SMART_WAGON_CONF_MSG_SUCCESS"));
-        // Assert.AreEqual(expectedMsg, addedToBasketMsg.Text);
+        waitforElement(By.Id("NATC_SMART_WAGON_CONF_MSG_SUCCESS"));
+        Assert.AreEqual(expectedMsg, addedToBasketMsg.Text);
     }
 }
 }

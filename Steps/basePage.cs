@@ -1,3 +1,4 @@
+using System.Collections.ObjectModel;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
@@ -45,14 +46,7 @@ public class BasePage
     public void openURL()
     {
         _driver.Url = "https://www.amazon.co.uk/";
-        List<IWebElement> elementList = new List<IWebElement>();
-        elementList.AddRange(new[] { _driver.FindElement(By.Id("sp-cc-accept")) });
-
-
-        if (elementList.Count > 0)
-        {
-            _driver.FindElement(By.Id("sp-cc-accept")).Click();
-        }
+       
     }
 
     public void waitforElement(By element)
